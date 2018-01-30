@@ -20,6 +20,13 @@
             </snapshots>
         </repository>
     </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>https://repo.spring.io/libs-milestone</url>
+        </pluginRepository>
+    </pluginRepositories>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
