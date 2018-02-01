@@ -58,4 +58,4 @@ Solved: Update to 2.0.0.M7 of spring-boot and 2.1.0.RC1 of spring-kafka adaptor.
 
 # TODO Tasks
 
-- Test domain event delete
+- Test domain event: PortfolioDelete
