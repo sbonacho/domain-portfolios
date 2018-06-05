@@ -31,7 +31,7 @@ mvn install dockerfile:build
 This command starts the service with domain-portfolios name
 
 ```
-docker run --rm -dit --name domain-portfolios soprasteria/domain-portfolios
+docker run --rm -dit --name domain-portfolios sbonacho/domain-portfolios
 ```
 
 Watching logs

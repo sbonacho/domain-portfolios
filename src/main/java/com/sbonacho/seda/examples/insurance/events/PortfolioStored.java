@@ -1,8 +1,8 @@
-package com.soprasteria.seda.examples.insurance.events;
+package com.sbonacho.seda.examples.insurance.events;
 
 import java.util.UUID;
 
-public class ClientCreated extends AbstractEvent {
+public class PortfolioStored extends AbstractEvent {
 
     public String getName() {
         return name;
@@ -28,15 +28,16 @@ public class ClientCreated extends AbstractEvent {
         this.interest = interest;
     }
 
-    public UUID getId() {
-        return id;
+    public UUID getClientId() {
+        return clientId;
     }
 
-    public void setId(UUID id) {
-        this.id = id;
+    public void setClientId(UUID clientId) {
+        this.clientId = clientId;
     }
 
-    private UUID id;
+    private UUID clientId;
+
     private String name;
     private String address;
     private String interest;
